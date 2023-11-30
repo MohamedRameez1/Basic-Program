@@ -1,0 +1,20 @@
+package Object;
+
+public class boolentostring {
+
+	public static void main(String[] args) {
+		// create boolean variables
+		boolean booleanValue1 = true;
+		boolean booleanValue2 = false;
+		
+		//CONVET BOLLEAN TO STRING USING toString(
+		String stringValue1 =Boolean.toString(booleanValue1);
+		String stringValue2 =Boolean.toString(booleanValue2);
+		
+		System.out.println(stringValue1);  // true
+		System.out.println(stringValue2); // false
+		
+
+	}
+
+}
